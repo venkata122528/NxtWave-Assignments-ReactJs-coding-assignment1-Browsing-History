@@ -1,0 +1,50 @@
+.eachHistoryItem {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.timeWebDataContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.timeEl {
+  margin: 10px;
+}
+
+.webDataContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.domainLogo {
+  margin: 10px;
+  height: 50%;
+}
+
+.domainNameEl {
+  margin: 10px;
+}
+
+.domainUrlEl {
+  margin: 10px;
+  margin-left: 15px;
+}
+
+.deleteButton {
+  height: 100%;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
+
+.deleteImg {
+}
